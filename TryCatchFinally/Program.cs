@@ -20,6 +20,7 @@ namespace TryCatchFinally
             catch (Exception ex) // общий класс Exception с переменной ex
             {
                 Console.WriteLine($"Возникла ошибка...{ex.Message}"); // обращение к "пропертям"
+                Console.WriteLine(ex.StackTrace); // определение МЕСТА ОШИБКИ
             }
             finally
             {
